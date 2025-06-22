@@ -3,11 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* body, html {
+body, html {
     height: 100%;
     margin: 0;
     font-family: sans-serif;
-  } */
+  }
 .parent{
     display: flex;
     height: 100vh;
@@ -17,7 +17,7 @@
 }
 .left{
     background-image: url(image1.png);
-    width: 32%;
+    width: 39%;
     height: 100%;
    background-size: cover;
    background-repeat: no-repeat;
@@ -90,7 +90,7 @@ h3{
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    padding: 30px ;
+    /* padding: 10px ; */
     gap: 10px;
     
 }
