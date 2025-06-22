@@ -3,19 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
-body, html {
+/* body, html {
     height: 100%;
     margin: 0;
     font-family: sans-serif;
-  }
+  } */
 .parent{
     display: flex;
     height: 100vh;
-    justify-content: center
+    justify-content: center;
+    padding: 20px;
+    font-family: sans-serif;
 }
 .left{
     background-image: url(image1.png);
-    width: 50%;
+    width: 35%;
     height: 100%;
    background-size: cover;
    background-repeat: no-repeat;
@@ -32,7 +34,7 @@ font-size: 40px;
 margin-bottom: 16px;
 }
 .left p{
-color: white;
+   color:  rgba(255, 255, 255, 0.497);
 }
 .right{
 width: 50%;
@@ -40,7 +42,7 @@ width: 50%;
 
 
 .right{
-    width: 50%;
+    width: 40%;
     height: 100%;
    background-size: cover;
    background-repeat: no-repeat;
