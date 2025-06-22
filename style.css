@@ -3,11 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-body, html {
+/* body, html {
     height: 100%;
     margin: 0;
     font-family: sans-serif;
-  }
+  } */
 .parent{
     display: flex;
     height: 100vh;
@@ -17,8 +17,8 @@ body, html {
 }
 .left{
     background-image: url(image1.png);
-    width: 35%;
-    height: 100%;
+    width: 40%;
+    height: 120%;
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 40px;
@@ -47,8 +47,7 @@ width: 50%;
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 40px;
-   
-   /* padding: 40px; */
+   padding: 40px;
    display: flex;
    flex-direction: column;
    gap: 52vh;
