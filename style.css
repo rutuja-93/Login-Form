@@ -95,13 +95,16 @@ h3{
     
 }
 input {
-    padding: 10px 80px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    outline: none;
-    border: 1px solid #ccc;
+        width: 350px;
+        padding: 10px 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        outline: none;
+      
+      
   }
+  
   label {
     font-size: 14px;
     font-weight: bold;
@@ -118,7 +121,7 @@ input {
   }
    .btn3{
     background-color: orangered;
-   
+    color: white;
     padding: 20px 120px;
 }
 
